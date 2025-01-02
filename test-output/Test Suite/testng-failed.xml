@@ -7,7 +7,6 @@
       <class name="TestCases.AdminReportIssueTest">
         <methods>
           <include name="TC002_Admin_can_able_to_open_the_Reported_issue"/>
-          <include name="TC005_Admin_cannot_able_to_respond_the_reported_issue_without_comment"/>
           <include name="TC003_Admin_can_able_to_respond_the_reported_issue_into_Inprogress"/>
           <include name="setup"/>
           <include name="tearDown"/>
@@ -18,10 +17,19 @@
         <methods>
           <include name="TC002_User_can_able_to_verify_the_reportIssue_and_BookMark_Button_in_FAQ"/>
           <include name="TC003_User_can_able_to_verify_that_FAQ_reportIssue_can_able_to_send"/>
+          <include name="TC001_User_can_able_to_verify_the_category_to_each_FAQ"/>
+          <include name="TC004_User_can_able_to_verify_that_like_and_dislike_the_FAQ"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- TestCases.UserFAQTest -->
+      <class name="TestCases.UserReportIssueTest">
+        <methods>
+          <include name="TC003_User_cannot_able_to_send_Issue_report_without_type_of_Issue_and_Description"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.UserReportIssueTest -->
       <class name="TestCases.AdminFAQTest">
         <methods>
           <include name="TC005_Admin_can_able_to_Verify_the_each_tab"/>
