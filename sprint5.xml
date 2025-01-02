@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="1">
+    
+    <test name="Client Tests">
+        <parameter name="env" value="client" />
+        <classes>
+            <class name="TestCases.AdminReportIssueTest"/>
+            <class name="TestCases.UserFAQTest"/>
+            <class name="TestCases.UserReportIssueTest"/>
+            <class name="TestCases.AdminFAQTest"/>
+        </classes>
+    </test>
+</suite>
+
+

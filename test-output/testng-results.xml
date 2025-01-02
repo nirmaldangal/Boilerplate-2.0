@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-23T13:57:20 WET" name="Default suite" finished-at="2024-12-23T13:57:37 WET" duration-ms="17116">
+    <groups>
+    </groups>
+    <test started-at="2024-12-23T13:57:20 WET" name="Default test" finished-at="2024-12-23T13:57:37 WET" duration-ms="17116">
+      <class name="TestCases.GlobalSettingOverviewTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestCases.GlobalSettingOverviewTest@5d534f5d]" started-at="2024-12-23T13:57:20 WET" name="setup" finished-at="2024-12-23T13:57:26 WET" duration-ms="5290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[client]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC002_Admin_can_able_to_select_the_language_English()[pri:0, instance:TestCases.GlobalSettingOverviewTest@5d534f5d]" started-at="2024-12-23T13:57:26 WET" name="TC002_Admin_can_able_to_select_the_language_English" finished-at="2024-12-23T13:57:37 WET" duration-ms="11106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_Admin_can_able_to_select_the_language_English -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.GlobalSettingOverviewTest@5d534f5d]" started-at="2024-12-23T13:57:37 WET" name="tearDown" finished-at="2024-12-23T13:57:37 WET" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.GlobalSettingOverviewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
